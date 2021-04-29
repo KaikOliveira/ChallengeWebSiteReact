@@ -1,8 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Routes } from './pages/router';
+
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
-    <h1>Hello World ReactJs TypeScript</h1>
+    <Router>
+      <Routes />
+
+      <GlobalStyle />
+    </Router>
   );
 }
 
