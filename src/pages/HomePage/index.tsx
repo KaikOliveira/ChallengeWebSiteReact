@@ -1,9 +1,12 @@
 import React from 'react';
+import { Header } from '../../components/Header';
 
-// import { Container } from './styles';
+import { Wrapper, Container } from './styles';
 
 export const HomePage: React.FC = () => (
-  <div>
+  <Wrapper>
+    <Header />
     <h1>home</h1>
-  </div>
+    <Container />
+  </Wrapper>
 );

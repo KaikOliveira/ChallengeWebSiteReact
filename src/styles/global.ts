@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import colors from './colors';
 
 export default createGlobalStyle`
   * {
@@ -8,8 +9,8 @@ export default createGlobalStyle`
     outline: 0;
   }
   body {
-    background: #EcEcEc;
-    color: #222;
+    background: ${colors.background};
+    color: ${colors.text};
     -webkit-font-smoothing: antialiased;
     max-width: 100vw;
     max-height: 100vh;

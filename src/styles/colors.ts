@@ -1,9 +1,12 @@
 export default {
-  background: '#f5f5f5',
+  background: '#EcEcEc',
+
+  grayLight: '#f5f5f5',
+  grayMid: '#D8D8D8',
   white: '#fff',
-  gray: '#D8D8D8',
-  dark: '#333',
   black: '#000',
+  text: '#222',
+  textLight: '#333',
 
   red: '#E83F5B',
 };
